@@ -72,6 +72,7 @@
             this.lblNombreper.Size = new System.Drawing.Size(156, 15);
             this.lblNombreper.TabIndex = 3;
             this.lblNombreper.Text = "Nombre de la Persona";
+            this.lblNombreper.Visible = false;
             // 
             // lblBeneficiario
             // 
@@ -82,6 +83,7 @@
             this.lblBeneficiario.Size = new System.Drawing.Size(283, 15);
             this.lblBeneficiario.TabIndex = 4;
             this.lblBeneficiario.Text = "Eres beneficiario de los $300.00 Dolares";
+            this.lblBeneficiario.Visible = false;
             // 
             // btnConsultar
             // 
@@ -92,6 +94,7 @@
             this.btnConsultar.TabIndex = 5;
             this.btnConsultar.Text = "CONSULTAR";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // Form1
             // 
