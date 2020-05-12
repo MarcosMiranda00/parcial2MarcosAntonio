@@ -1,8 +1,11 @@
-﻿using System;
+﻿using MarcosAntonioMejiaMirandaParcial2.Vista;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MarcosAntonioMejiaMirandaParcial2.Model;
+using MarcosAntonioMejiaMirandaParcial2.Vista;
 
 namespace MarcosAntonioMejiaMirandaParcial2
 {
